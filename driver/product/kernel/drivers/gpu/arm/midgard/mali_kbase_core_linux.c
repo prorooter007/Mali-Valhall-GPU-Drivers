@@ -33,7 +33,7 @@
 #endif /* CONFIG_DEVFREQ_THERMAL */
 #endif /* CONFIG_MALI_DEVFREQ */
 #include "backend/gpu/mali_kbase_model_linux.h"
-#include "uapi/gpu/arm/bv_r49p0/mali_kbase_mem_profile_debugfs_buf_size.h"
+#include "uapi/gpu/arm/bv_r50p0/mali_kbase_mem_profile_debugfs_buf_size.h"
 #include "mali_kbase_mem.h"
 #include "mali_kbase_mem_pool_debugfs.h"
 #include "mali_kbase_mem_pool_group.h"
@@ -48,7 +48,7 @@
 #include <mali_kbase_hwaccess_instr.h>
 #endif
 #include <mali_kbase_reset_gpu.h>
-#include <uapi/gpu/arm/bv_r49p0/mali_kbase_ioctl.h>
+#include <uapi/gpu/arm/bv_r50p0/mali_kbase_ioctl.h>
 #if !MALI_USE_CSF
 #include "mali_kbase_kinstr_jm.h"
 #endif
@@ -5982,7 +5982,7 @@ static const struct of_device_id kbase_dt_ids[] = {
 							/* MALI_SEC_INTEGRATION */
 							{ .compatible = "arm,mali", },
 							{ .compatible = "arm,malit6xx" },
-						    { .compatible = "arm,mali-bv_r49p0" },
+						    { .compatible = "arm,mali-bv_r50p0" },
 						    { .compatible = "arm,mali-bifrost" },
 						    { .compatible = "arm,mali-valhall" },
 						    { /* sentinel */ } };

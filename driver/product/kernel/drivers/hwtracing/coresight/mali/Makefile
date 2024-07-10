@@ -75,7 +75,7 @@ EXTRA_CFLAGS := $(foreach config,$(CONFIGS), \
 #
 GPU_SYMBOLS = $(M)/../../../gpu/arm/Module.symvers
 ifeq ($(MALI_KCONFIG_EXT_PREFIX),)
-    GPU_SYMBOLS = $(M)/../../../gpu/arm/bv_r49p0/Module.symvers
+    GPU_SYMBOLS = $(M)/../../../gpu/arm/bv_r50p0/Module.symvers
 endif
 
 EXTRA_SYMBOLS += \
